@@ -1,25 +1,44 @@
-<!DOCTYPE html>
 <html>
-    <body>
-        <div class="topnav">
-            <a class="active" href="./main.html">Home</a>
-            <a href="./recommendation.html">Recommendation</a>
-            <a href="./contact.html">Contact</a>
+  <head>
+    <title> STYLEYEZ </title>
+  </head>
+    <center>
+      <body>
+      <div id="zero">
+      <img src="https://i.ibb.co/c2hz6XW/Shop-2.png" class="cont" width=600 height=350/>
+      </div>
+          <h1 class="text" id="title">STYLEYEZ</h1>
+          <h4 class="text"> One click to your desired style. </h4>
+          <a class="text" href="./Profile.html">Profile</a> &nbsp &nbsp &nbsp
+          <a class="text" href="./recommendation.html">Recommendation</a> &nbsp &nbsp &nbsp
+          <a class="text" href="./Contact.html">Contact</a>
+    <div id="zero">
+          <img src="https://i.ibb.co/0q7XvFK/Heading-Line.png" width=100% height=75>
+    </div>
+    </center>
+        
+        <div id="rcorners2" class="profile-background profile-center"> 
+          <br>
+          <img class="profile-image centeritem" src="https://www.seekpng.com/png/full/73-730482_existing-user-default-avatar.png" alt="avatar">
+          <p class="display-name">John Smith</p>
+          <p class="bio"><b>Bio:</b> Hello! I'm John Smith! I love skating outside and going to rock and roll concerts!</p>
+          <p class="interest"> <b>Interest:</b> <i>Emo Outfits,  Business Casuel, Skater Outifits</i> </p>
         </div>
-        <br>
-        <div class="container">
-            <div id="rcorners2" class="profile-background center-screen"> 
-                <img class="profile-image centeritem" src="https://www.seekpng.com/png/full/73-730482_existing-user-default-avatar.png" alt="avatar">
-                <p class="display-name">John Smith</p>
-                <p class="bio"><b>Bio:</b> Hello! I'm John Smith! I love skating outside and going to rock and roll concerts!</p>
-                <p class="interest"> <b>Interest: </b><i>Emo Outfits,  Business Casuel, Skater Outifits</i> </p>
-            </div>
-        </div>
-    </body>
+      </body>
 </html>
 
 <!-- CSS Style -->
 <style>
+
+
+a {
+    color : black;
+    font-size: 25px;
+}
+
+.text {
+  font-family: Bodoni MT, Bodoni MT, serif;
+}
 
 p {
     color: white;
@@ -83,9 +102,17 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.profile-center{
+      position: absolute;
+      top: 120%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
 .center-screen {
       position: absolute;
-      top: 50%;
+      top: 100%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
@@ -99,6 +126,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
+#zero {font-size:0;}
 
 #rcorners2 {
   border-radius: 25px;
@@ -134,6 +162,38 @@ body {
 .topnav a.active {
   background-color: #67945a;
   color: white;
+}
+
+.cont {position:relative}
+#title {position: relative;
+		top: -210px;
+		left: -2px;
+		font-size: 28px;
+		}
+#zero {font-size:0;}
+
+#rw1 {font-size:22px; background-color:#6D8267;}
+
+a {
+    color : black;
+    font-size: 25px;
+  }
+  body {
+    background-color: #97BB8D;
+  }
+
+.text {
+  font-family: Bodoni MT, Bodoni MT, serif;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 </style>

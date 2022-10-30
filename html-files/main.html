@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset = "utf-8">
     <title> STYLEYEZ </title>
   </head>
-
+	<center>
   <body>
-    <center>
-      <h1>STYLEYEZ</h1>
-      <h4> One click to your desired style. </h4> 
-    </center>
-   
-    <center>
-      <div class="topnav">
-        <a class="active" href="./main.html">Home</a>
-        <a href="./recommendation.html">Recommendation</a>
-        <a href="./contact.html">Contact</a>
-    </div>
- 
-      <hr color="black" size="2" width="100%" >
-      <div class="column">
-        <div class="card">
-          <img src="https://lh3.googleusercontent.com/4bu_HjY4eWPyTxJLY65svo166VX6hpVMS-7xehAwBU6wdtfibtRQjAuqzqZXdwcfohzYJXog1_OD72dn1dkNphKjiYM1Ci1SDZt24qmf7W9sgkOV3oaZ2NM6tPnE7eox2iFyUWLuWbk=w2400" alt="Avata style="width:200px;height:200px;">
-          <div class="container">
-            <h4><b>Cottage Core</b></h4>
-          </div>
-        </div>
-      <div>
-        </div class="column">
-        
-        <div class="card">
-          <img src="https://cimg.clozette.co/img/Light_and_Dark_Academia_Aesthetics_Outfit_Ideas-1-FB.png" alt="Avatar" style="width:200px;height:200px;">
-          <div class="container">
-            <h4><b>Academia</b></h4>
-            </div>
-          </div>
-          </div>
-          
-          
-      </div>
-    </center>
+	<div id="zero">
+	<img src="https://i.ibb.co/c2hz6XW/Shop-2.png" class="cont" width=600 height=350/>
+	</div>
+      <h1 class="text" id="title">STYLEYEZ</h1>
+      <h4 class="text"> One click to your desired style. </h4>
+      <a href="./Profile.html">Profile</a> &nbsp &nbsp &nbsp
+      <a href="./recommendation.html">Recommendation</a> &nbsp &nbsp &nbsp
+      <a href="./Contact.html">Contact</a>
+<div id="zero">
+      <img src="https://i.ibb.co/0q7XvFK/Heading-Line.png" width=100% height=75>
+</div>
+</center>
+<table id="tabl" class="text" border="4" bordercolor="white" width="100%">
+	<tr id="h2">
+		<th> <a href="./cottagecore.html"><img src="https://i.ibb.co/dG0SrRL/Cottagecore.jpg"  style="width:250px;height:200px;"> </a> </th>
+		<th> <a href="./darkacademia.html"><img src="https://i.ibb.co/92bQndr/Dark-Academia.png" style="width:250px;height:200px;"> </th>
+		<th> <a href="./gothic.html"><img src="https://i.ibb.co/XY4jFTv/Gothic.png" style="width:250px;height:200px;"> </th>
+		<th> <a href="./fairycore.html"><img src="https://i.ibb.co/prNmDPc/Fairycore.png" style="width:250px;height:200px;"> </th>
+	</tr>
+	<tr id="rw1">
+		<td align="center"><b> Cottagecore </td>
+		<td align="center"><b> Dark Academia </td>
+		<td align="center"><b> Gothic </td>
+		<td align="center"><b> Fairycore </td>		
+	</tr>
+	<tr id="h2">
+		<th> <a href="./gamer.html"><img src="https://i.ibb.co/mhb31x1/Gamer.png"  style="width:250px;height:200px;"> </a> </th>
+		<th> <a href="./baddie.html"><img src="https://i.ibb.co/x3MptFh/Baddie.png" style="width:250px;height:200px;"> </th>
+		<th> <a href="./boho.html"><img src="https://i.ibb.co/tqM5700/Boho.png" style="width:250px;height:200px;"> </th>
+		<th> <a href="./emo.html"><img src="https://i.ibb.co/Fm48MnP/Emo.png" style="width:250px;height:200px;"> </th>
+	</tr>
+	<tr id="rw1">
+		<td align="center"><b> Gamer </td>
+		<td align="center"><b> Baddie </td>
+		<td align="center"><b> Bohemian </td>
+		<td align="center"><b> Emo </td>		
+	</tr>
   </body>
 </html>
 
 
 <!-- CSS code -->
 <style>
+
   a {
     color : black;
     font-size: 25px;
@@ -54,19 +57,8 @@
     background-color: #97BB8D;
   }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Float four columns side by side */
-.column {
- float: left;
-  width: 25%;
-  padding: 0 10px;
+.text {
+  font-family: Bodoni MT, Bodoni MT, serif;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -79,50 +71,15 @@ body {
   clear: both;
 }
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+.cont {position:relative}
+#title {position: relative;
+		top: -210px;
+		left: -2px;
+		font-size: 28px;
+		}
+#zero {font-size:0;}
 
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 8px;
-  text-align: center;
-  background-color: #f1f1f1;
-  border: 4;
-}
-
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 28px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #67945a;
-  color: white;
-}
+#rw1 {font-size:22px; background-color:#6D8267;}
 
 
 
