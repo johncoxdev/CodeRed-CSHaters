@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="topnav">
+            <a class="active" href="./main.html">Home</a>
+            <a href="./recommendation.html">Recommendation</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+        <br>
+        <div class="container">
+            <div id="rcorners2" class="profile-background center-screen"> 
+                <img class="profile-image centeritem" src="https://www.seekpng.com/png/full/73-730482_existing-user-default-avatar.png" alt="avatar">
+                <p class="display-name">John Smith</p>
+                <p class="bio"><b>Bio:</b> Hello! I'm John Smith! I love skating outside and going to rock and roll concerts!</p>
+                <p class="interest"> <b>Interest: </b><i>Emo Outfits,  Business Casuel, Skater Outifits</i> </p>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- CSS Style -->
+<style>
+
+p {
+    color: white;
+}
+
+body {
+    background-color: #97BB8D;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.container {
+    background-color: #333;
+    width: 99vw;
+    height: 80vh;
+}
+
+
+.profile-background {
+    background-color: rgb(38, 38, 38);
+    height: 60vh;
+    width: 100vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.display-name {
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bio {
+    padding: 10px;
+    position: absolute;
+    font-size: medium;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.interest {
+    padding: 10px;
+    position: absolute;
+    font-size: medium;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-screen {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
+.centeritem {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #97BB8D;
+  padding: 12px 20px;
+  width: 25%;
+  min-height: 5%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 28px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #67945a;
+  color: white;
+}
+
+</style>
